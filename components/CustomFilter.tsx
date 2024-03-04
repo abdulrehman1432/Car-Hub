@@ -1,6 +1,11 @@
 import React from 'react'
 
-const CustomFilter = () => {
+interface Props {
+  title: string;
+  
+}
+
+const CustomFilter = ({title}:Props) => {
   return (
     <div>CustomFilter</div>
   )
